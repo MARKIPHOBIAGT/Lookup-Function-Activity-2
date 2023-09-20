@@ -1,0 +1,35 @@
+,,,,,,,,,,
+Product,City,Sales Amnt (USD),Sales Date,Agent,PO Date,Tax,Net Income (USD),,1.)," Using VLOOKUP, find the agent who has sold Product P003"
+P001,Atlanta,"$200,000.00",27-Dec-19,Robert,24-Dec-19,2.1%,"$195,800.00",,,Sally
+P002,Ontario,"$120,000.00",19-Apr-20,Andy,16-Apr-20,1.5%,"$118,200.00",,2.)," Find the Net Income for Product ""P002"" using Index & Match."
+P003,Los Angeles,"$300,000.00",25-Mar-20,Sally,22-Mar-20,2.2%,"$293,400.00",,," $ 118,200.00 "
+P004,Ontario,"$14,500.00",31-May-20,John,28-May-20,1.8%,"$14,239.00",,3.), Display the position for PO Date as below
+P005,Nevada,"$20,000.00",06-Aug-20,Ricardo,03-Aug-20,2.9%,"$19,430.00",,,15-Nov-21
+P006,Atlanta,"$25,500.00",12-Oct-20,Julie,09-Oct-20,3.4%,"$24,625.35",,,12
+P007,Florida,"$31,000.00",18-Dec-20,Adriana,15-Dec-20,4.0%,"$29,756.90",,4.), Display total no of columns for the Product data.
+P008,New York,"$36,500.00",23-Feb-21,Ady,20-Feb-21,4.6%,"$34,824.65",,,8
+P009,Portland,"$42,000.00",01-May-21,Spencer,28-Apr-21,5.2%,"$39,828.60",,5.)," Display Column No for the Column ""City"""
+P010,Ontario,"$47,500.00",07-Jul-21,Mark,04-Jul-21,5.8%,"$44,768.75",,,2
+P011,Florida,"$53,000.00",12-Sep-21,Michael,09-Sep-21,6.3%,"$49,645.10",,,
+P012,Florida,"$58,500.00",18-Nov-21,Meven,15-Nov-21,6.9%,"$54,457.65",,6.), Use the below data to assign Tax Level for each Product
+P013,Ontario,"$64,000.00",24-Jan-22,Steven,21-Jan-22,7.5%,"$59,206.40",,,0.1 to 1.9%--->TAX LEVEL1
+P014,Atlanta,"$69,500.00",01-Apr-22,,29-Mar-22,8.1%,"$63,891.35",,,2.0 to 3.0%--->TAX LEVEL2
+P015,Nevada,"$75,000.00",07-Jun-22,,04-Jun-22,8.7%,"$68,512.50",,,3.1 to 5.5%---->TAX LEVEL3
+P016,Nevada,"$80,500.00",13-Aug-22,,10-Aug-22,9.2%,"$73,069.85",,,
+P017,Portland,"$86,000.00",19-Oct-22,,16-Oct-22,9.8%,"$77,563.40",,,
+P018,Atlanta,"$91,500.00",25-Dec-22,,22-Dec-22,10.4%,"$81,993.15",,,
+P019,Portland,"$97,000.00",02-Mar-23,,27-Feb-23,11.0%,"$86,359.10",,,
+P020,New York,"$102,500.00",08-May-23,,05-May-23,11.6%,"$90,661.25",,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,Product,Tax,Level,,,,,,
+,,P001,2.1%,TAX LEVEL2,,,,,,
+,,P002,1.50%,TAX LEVEL1,,,,,,
+,,P003,2.20%,TAX LEVEL2,,,,,,
+,,P004,1.80%,TAX LEVEL1,,,,,,
+,,P005,2.90%,TAX LEVEL2,,,,,,
+,,P006,3.40%,TAX LEVEL3,, ,,,,
+,,P007,4.00%,TAX LEVEL3,,,,,,
+,,P008,4.60%,TAX LEVEL3,,,,,,
+,,P009,5.20%,TAX LEVEL3,,,,,,
+,,P010,5.80%,TAX LEVEL3,,,,,,
